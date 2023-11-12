@@ -30,8 +30,8 @@ public class ApplicationContextExtendsFindTest {
   @Test
   @DisplayName("부모 타입으로 조회 시, 자식이 둘 이상 있으면, 이름을 지정하면 된다.")
   void findBeanByParentTypeBeanName() {
-    DiscountPolicy rateDiscountPolich = ac.getBean("rateDiscountPolich", DiscountPolicy.class);
-    //실제 구현 객체는 rete~
+    DiscountPolicy rateDiscountPolich = ac.getBean("rateDiscountPolicy", DiscountPolicy.class);
+    //실제 구현 객체는 rete~ rateDiscountPolicy
     assertThat(rateDiscountPolich).isInstanceOf(RateDiscountPolicy.class);
   }
 

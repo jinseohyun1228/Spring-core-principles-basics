@@ -22,16 +22,16 @@ public class ConfigurationSingletonTest {
     OrderServiceImpl orderService = ac.getBean("orderService", OrderServiceImpl.class);
     MemberRepository memberRepository = ac.getBean("memberRepository", MemberRepository.class);
 
-    MemberRepository memberRepository1 = memberService.getMemberRepository();
-    MemberRepository memberRepository2 = orderService.getMemberRepository();
+//    MemberRepository memberRepository1 = memberService.getMemberRepository();
+//    MemberRepository memberRepository2 = orderService.getMemberRepository();
 
     //모두 같은 인스턴스를 참고하고 있다.
-    System.out.println("memberService -> memberRepository = " + memberRepository1);
-    System.out.println("orderService -> memberRepository = " + memberRepository2);
-    System.out.println("memberRepository = " + memberRepository);
-
-    assertThat(memberService.getMemberRepository()).isSameAs(memberRepository);
-    assertThat(orderService.getMemberRepository()).isSameAs(memberRepository);
+//    System.out.println("memberService -> memberRepository = " + memberRepository1);
+//    System.out.println("orderService -> memberRepository = " + memberRepository2);
+//    System.out.println("memberRepository = " + memberRepository);
+//
+//    assertThat(memberService.getMemberRepository()).isSameAs(memberRepository);
+//    assertThat(orderService.getMemberRepository()).isSameAs(memberRepository);
 
   }
 

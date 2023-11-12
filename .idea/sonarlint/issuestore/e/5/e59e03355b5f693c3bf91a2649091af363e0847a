@@ -1,0 +1,17 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(‹™§ê8ÿ¾ğ¢¼1
+R
+java:S1128"5Remove this unused import 'hello.core.member.Member'.(İíğ­8€å§›¼1
+\
+java:S1128"?Remove this unused import 'hello.core.member.MemberRepository'.(ÁŞÛ¾8€¿ğ¢¼1
+b
+java:S1128"ERemove this unused import 'hello.core.member.MemoryMemberRepository'.(•ãäï8€¿ğ¢¼1
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8€¿ğ¢¼1
+g
+java:S1128
+"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8€å§›¼1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8€å§›¼1
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8€å§›¼1
