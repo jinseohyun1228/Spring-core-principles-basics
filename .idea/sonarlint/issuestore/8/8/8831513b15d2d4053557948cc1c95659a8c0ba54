@@ -1,10 +1,0 @@
-
-X	java:S125"<This block of commented-out lines of code should be removed.(’Ö¥8ÝÍß‘¼1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëÌŠ›þÿÿÿÿ8Õ†¡’¼1
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(èÀœÒÿÿÿÿÿ8Ù†¡’¼1
-X	java:S125#"<This block of commented-out lines of code should be removed.(ŒÓŽž8’øÿ£¼1
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(®¤€®ÿÿÿÿÿ8ö…‘ ¼1
-d
-java:S1128"BRemove this unused import 'hello.core.discount.FixDiscountPolicy'.(¯èíâùÿÿÿÿ8þ¹Ž ¼1
-[
-java:S1128">Remove this unused import 'hello.core.order.OrderServiceImpl'.(É‚€¥8“øÿ£¼1
